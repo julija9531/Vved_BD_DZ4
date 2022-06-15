@@ -1,0 +1,47 @@
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Неон', '2012');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Танцы', '2008');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Для сна', '2019');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Для фитнеса', '2007');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Релакс', '2016');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Бодрое', '2011');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Хард', '2015');
+
+INSERT INTO collection (
+	name,
+	year_of_issue
+	)
+VALUES ('Вокал', '2021');

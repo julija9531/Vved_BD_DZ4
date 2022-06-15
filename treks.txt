@@ -1,0 +1,104 @@
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Мой любимый', '1', '213');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('My Rock-n-Roll', '2', '203');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Midnight City', '3', '228');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Nightcall', '4', '241');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('My Cola', '5', '274');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Black Out Days', '6', '161');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Burn It All Down', '7', '192');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('My Enemy', '8', '264');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Its-Time-Night', '1', '272');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('abcdefu', '2', '246');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Infinity', '3', '144');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Мой New Americana', '4', '240');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Sonne', '5', '282');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Unstoppable', '6', '227');
+
+INSERT INTO treks (
+	trek_name,
+	albums_id,
+	duration
+	)
+VALUES ('Free Animal', '7', '201');

@@ -1,0 +1,41 @@
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Mark Thomas');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Lusi');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Djekson');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Бритни Спирс');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Lora');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Цой');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('David Mihailov');
+
+INSERT INTO performers (
+	performers_name
+	)
+VALUES ('Mila Koko');
+
+	

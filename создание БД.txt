@@ -1,0 +1,53 @@
+CREATE USER julija WITH PASSWORD '';
+CREATE DATABASE bazadannih WITH OWNER julija;
+
+
+CREATE TABLE genres (
+	id SERIAL PRIMARY KEY,
+	genre_name VARCHAR(40) NOT NULL UNIQUE
+	);
+
+CREATE TABLE performers (
+	id SERIAL PRIMARY KEY,
+	performers_name VARCHAR(60) NOT NULL UNIQUE
+	);
+
+CREATE TABLE Performes_Genres (
+	id SERIAL PRIMARY KEY,
+	performers_id INTEGER REFERENCES performers(id),
+	genres_id INTEGER REFERENCES genres(id),
+	UNIQUE (performers_id, genres_id)
+	);
+
+CREATE TABLE albums (
+	id SERIAL PRIMARY KEY,
+	title VARCHAR(120) NOT NULL UNIQUE,
+	year_of_issue INTEGER
+	);
+
+CREATE TABLE performers_albums (
+	id SERIAL PRIMARY KEY,
+	performers_id INTEGER REFERENCES performers(id),
+	albums_id INTEGER REFERENCES albums(id),
+	UNIQUE (performers_id, albums_id)
+	);
+
+CREATE TABLE treks (
+	id SERIAL PRIMARY KEY,
+	trek_name VARCHAR(120) NOT NULL,
+	albums_id INTEGER REFERENCES albums(id),
+	duration INTEGER 
+	);
+
+CREATE TABLE collection (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(120) NOT NULL UNIQUE,
+	year_of_issue INTEGER
+	);
+
+CREATE TABLE collection_of_tracks_and_albums (
+	id SERIAL PRIMARY KEY,
+	collection_id INTEGER REFERENCES collection(id),
+	trek_id INTEGER REFERENCES treks(id),
+	UNIQUE (collection_id, trek_id)
+	);

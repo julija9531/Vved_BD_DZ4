@@ -1,0 +1,48 @@
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Ромашка', '1939');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Тюльпан', '2020');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Village', '2018');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('City', '1943');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Деревня', '1940');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Село', '2001');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Воздух', '2018');
+
+INSERT INTO albums (
+	title,
+	year_of_issue
+	)
+VALUES ('Листья', '2002');
+

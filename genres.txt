@@ -1,0 +1,24 @@
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Фолк-музыка');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Кантри');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Латиноамериканская музыка');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Блюз');
+
+INSERT INTO genres (
+	genre_name
+	)
+VALUES ('Джаз');
